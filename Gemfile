@@ -30,7 +30,15 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+
+  #Use Autoprefixer with Bootstrap to add browser
+  gem 'autoprefixer-rails'
+
 end
+
+
+ #include bootstrap
+ gem 'bootstrap-sass', '~> 3.3.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
